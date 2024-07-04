@@ -22,7 +22,7 @@ To break down the **"Automated S3 Data Backup System"** project into smaller, ma
 2. Write a basic script to create an S3 bucket using Boto3.
 3. List all S3 buckets in your AWS account using Boto3.
 
-### Project 1.3: Uploading Files to S3
+### [Project 1.3](./1.3-Uploading-Files-S3.py): Uploading Files to S3
 
 **Description**: Learn how to upload files from your local machine to an S3 bucket using Boto3.
 

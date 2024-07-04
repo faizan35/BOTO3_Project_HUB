@@ -16,10 +16,11 @@ def create_bucket(bucket_name, region):
     location = {'LocationConstraint': region}
     s3_client.create_bucket(Bucket=bucket_name, CreateBucketConfiguration=location)
 
-
 create_bucket('mm-y2', 'us-east-2')
 
-###########
+#############################################################
+
+# List all S3 buckets in your AWS account
 
 response = s3_client.list_buckets()
 
